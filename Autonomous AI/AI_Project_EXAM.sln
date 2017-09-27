@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI_Project_Launcher", "AI_Project_Launcher\AI_Project_Launcher.vcxproj", "{4BC24CBE-EF68-4B1D-BDA9-7062F91CD8A1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A830707D-0D7A-40BD-BCDC-0B1575E5A16C} = {A830707D-0D7A-40BD-BCDC-0B1575E5A16C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI_Project_Plugin", "AI_Project_Plugin\AI_Project_Plugin.vcxproj", "{A830707D-0D7A-40BD-BCDC-0B1575E5A16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC24CBE-EF68-4B1D-BDA9-7062F91CD8A1}.Debug|x86.ActiveCfg = Debug|Win32
+		{4BC24CBE-EF68-4B1D-BDA9-7062F91CD8A1}.Debug|x86.Build.0 = Debug|Win32
+		{4BC24CBE-EF68-4B1D-BDA9-7062F91CD8A1}.Release|x86.ActiveCfg = Release|Win32
+		{4BC24CBE-EF68-4B1D-BDA9-7062F91CD8A1}.Release|x86.Build.0 = Release|Win32
+		{A830707D-0D7A-40BD-BCDC-0B1575E5A16C}.Debug|x86.ActiveCfg = Debug|Win32
+		{A830707D-0D7A-40BD-BCDC-0B1575E5A16C}.Debug|x86.Build.0 = Debug|Win32
+		{A830707D-0D7A-40BD-BCDC-0B1575E5A16C}.Release|x86.ActiveCfg = Release|Win32
+		{A830707D-0D7A-40BD-BCDC-0B1575E5A16C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

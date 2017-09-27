@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="PluginEntry.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBoxPlugin.cpp">
+      <Filter>Plugin</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringPipeline.cpp">
+      <Filter>Behaviours &amp; pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviours.cpp">
+      <Filter>Behaviours &amp; pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourTree.cpp">
+      <Filter>Blackboard &amp; BehaviourTree</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="House.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+    <ClCompile Include="CombinedBehaviours.cpp">
+      <Filter>Behaviours &amp; pipeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\_Includes\IBehaviourPlugin.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBoxPlugin.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringPipeline.h">
+      <Filter>Behaviours &amp; pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Blackboard.h">
+      <Filter>Blackboard &amp; BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviours.h">
+      <Filter>Behaviours &amp; pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourTree.h">
+      <Filter>Blackboard &amp; BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers.h">
+      <Filter>Plugin</Filter>
+    </ClInclude>
+    <ClInclude Include="Behaviours.h">
+      <Filter>Blackboard &amp; BehaviourTree</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="House.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="CombinedBehaviours.h">
+      <Filter>Behaviours &amp; pipeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Plugin">
+      <UniqueIdentifier>{d577b3ab-50de-4979-82c9-348cb50f5796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behaviours &amp; pipeline">
+      <UniqueIdentifier>{1dc3a46b-5b67-44e8-9de1-f0c04b0e90a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blackboard &amp; BehaviourTree">
+      <UniqueIdentifier>{dbb50138-7c9a-4914-aa49-5652c9290cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{674d2f35-a425-494f-8a79-256034e3f80d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
